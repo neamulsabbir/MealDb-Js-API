@@ -1,0 +1,47 @@
+.headng-margin{
+    margin: 25px 0 10px 0;
+}
+.description{
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 20px ;
+}
+.btn-color{
+    color: white;
+    background-color: black;
+}
+.search-color{
+    border-radius: 50px;  
+}
+
+#search-cards{
+    max-width: 80%;
+    margin: auto;
+}
+.card-details{
+    max-width: 20%;
+    margin: auto;
+    
+}
+.bottom-cards{
+    margin : 1px 0px
+}
+
+
+.error-message{
+    max-width: 50%;
+    margin: auto;
+    color: rgb(255, 0, 0);
+    font-weight: 100;
+    
+}
+.error-message h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.result-string{
+    display: none;
+}
+.result{
+    display: none;
+}

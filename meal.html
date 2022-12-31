@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MealDB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="meal.css">
+</head>
+<body>
+
+    <section>
+        <div>
+            <h1 class="text-center fw-bolder headng-margin">Welcome to TheMealDB</h1>
+            <p class="text-center description">Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.
+                We also offer a free JSON API for anyone wanting to use it, with additional features for subscribers.An open, crowd-sourced database of Recipes from around the world.</p>
+        </div>
+
+
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input id="search-field" type="text" class="form-control search-color" placeholder="Search your food" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button onclick = "searchFood()" class="btn btn-outline-secondary btn-color" type="button" id="button-addon2">Search</button>
+        </div>
+        <div class="error-message">
+            <h5 id="result-error" class="result">Result Not Found</h5>
+            <h5 id="empty-string" class="result-string">Please write something</h5>
+        </div>
+
+        <div id="card-details" >
+        </div>
+
+
+
+        <div id="search-cards" class="row row-cols-1 row-cols-md-3 g-4  bottom-cards"> 
+        </div>
+    </section>
+    
+
+
+
+
+    <script src="meal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
